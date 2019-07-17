@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+<link rel="stylesheet" href="style/w3.css">
+<body
+bgcolor="FAFAFA">
+
+<header class="w3-container w3-blue w3-center">
+  <h1><h1>Datataker</h1></h1>
+</header>
+
+	<div class="w3-container">
+		
+	</div>
+ 
+	<div class="w3-container w3-margin-top">
+		<a href="#1" class="w3-button w3-ripple w3-grey w3-round-large w3-block">Config</a>
+	</div>
+	
+	<div class="w3-container w3-margin-top">
+		<a href="http://datataker.local:3000" class="w3-button w3-ripple w3-grey w3-round-large w3-block">Grafana</a>
+	</div>
+
+	<div class="w3-container w3-margin-top">
+		<?php
+		//$host = shell_exec('hostname -I');
+		$host = 5;
+		echo $host;
+		?>
+	</div>
+
+	<footer class="w3-container w3-black w3-margin-top" style="position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;">
+		<p>© Cedel Assen - Hanzehogeschool Groningen | EPDE Project</p>
+	</footer>
+
+</body>
+</html>

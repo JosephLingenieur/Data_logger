@@ -1,0 +1,35 @@
+2018-01-18 11:54:55,203 Log:
+Traceback (most recent call last):
+  File "/var/www/html/py/log.py", line 157, in <module>
+    main()
+  File "/var/www/html/py/log.py", line 90, in main
+    measurement = "channel_" + row[0]
+TypeError: coercing to Unicode: need string or buffer, int found
+2018-01-18 11:56:04,688 Log:
+Traceback (most recent call last):
+  File "/var/www/html/py/log.py", line 157, in <module>
+    main()
+  File "/var/www/html/py/log.py", line 90, in main
+    measurement = "channel_" + string(row[0])
+NameError: global name 'string' is not defined
+2018-01-18 11:57:31,426 Log:
+Traceback (most recent call last):
+  File "/var/www/html/py/log.py", line 157, in <module>
+    main()
+  File "/var/www/html/py/log.py", line 150, in main
+    time.sleep(1)
+KeyboardInterrupt
+2018-01-18 12:00:07,073 Log:
+Traceback (most recent call last):
+  File "/var/www/html/py/log.py", line 157, in <module>
+    main()
+  File "/var/www/html/py/log.py", line 150, in main
+    time.sleep(1)
+KeyboardInterrupt
+2018-01-18 12:27:23,945 Log:
+Traceback (most recent call last):
+  File "/var/www/html/py/log.py", line 158, in <module>
+    main()
+  File "/var/www/html/py/log.py", line 151, in main
+    time.sleep(1)
+KeyboardInterrupt
